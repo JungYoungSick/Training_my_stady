@@ -1,6 +1,7 @@
-function add(a,b){
-return a+b;
+for(let i=1; i<=10; i++){
+  console.log(i)
 }
 
-const plus = add(5,10)
-console.log(plus)
+//알게 된 점.
+//for문 작성 시 무의식적으로 i에 변수선언을 안한 상태로 처음에 코드를 작성하였다
+//작성하고 나서 알아본 결과 for(작성 시 나중 전역범위에서 문제를 일으킬 수 있다고 한다.)
