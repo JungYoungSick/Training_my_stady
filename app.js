@@ -1,2 +1,3 @@
-const a = 10;
-console.log(a)
+let a = "Hello,"
+let b = "javascript"
+console.log(a,b)

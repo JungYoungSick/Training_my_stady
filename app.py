@@ -1,2 +1,4 @@
-a = 10
-print (a)
+a = "Hello,"
+b = "python"
+
+print (a,b)
