@@ -1,4 +1,6 @@
-for i in range(1,11):
-  print(i)
+Number = 16;
 
-  # 반복문은 자주 사용하니 사용법을 잘 익혀두자.
+if Number %2 == 0:
+  print("짝수")
+else:
+  print("홀수")
