@@ -1,4 +1,5 @@
-a = 5
-b = 10
+def add(a,b):
+  return a+b
 
-print (a+b)
+plus = add(5,10)
+print(plus)
